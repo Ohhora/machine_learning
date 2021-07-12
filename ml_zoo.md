@@ -1,7 +1,8 @@
 ---
 # 1. what is Neural Network?
 
-test for latex notation $$\mathbb{R}$$ $$\mathcal{C}$$
+
+
 
 ---
 # 2. How to find a optimization solution in Neural Network?
