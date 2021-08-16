@@ -7,11 +7,16 @@
 ## 2. DeepPurpose Library
 
 ### 2.1 Module for encoding proteins and compounds
+  - DeepPurpose takes the compound's SMILES string and protein amino acid sequence pair as input.
+  - They are fed into molecular encoders which specifies a deep transformation function that maps compoundsand 
 
 ### 2.2 Module for DTI prediction
-
+  - DeepPurpose feeds the learned protein and compound embeddings into an MLP decoder to generate predictions.
+  - 
 ### 2.3 Modules for other downstream prediction tasks
-
+  - 1.
+  - 2. DeepPurpose supports user-friendly programming frameworks for other modeling tasks, including drug and protein property prediction, drug-drug intereaction prediction and protein-protein interaction prediction
+  - 3. DeepPurpose provides an interface to many types of data, including public large binding affinity dataset, bioassay data and a drug repurposing library.
 ### 2.4 Programming framework and implementation details
   - The functionality of DeepPurpose is modularized into six key steps where a single line of code can invoke each step
     + (i) Load the dataset from a local file or load a DeepPurpose benchmark dataset
